@@ -27,5 +27,9 @@ springdoc:
     path: /api-docs
 inventory:
   url: http://localhost:1664
-
+  
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
 
